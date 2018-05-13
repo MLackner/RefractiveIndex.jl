@@ -38,5 +38,5 @@ function check_refractiveindices(materials, λ, nvals, kvals)
     end
 end
 
-# @testset "Data Reachability Test" begin getalldata() end
+@testset "Data Reachability Test" begin getalldata() end
 @testset "Refractive Index Tests" begin check_refractiveindices(materials, λ, nvals, kvals) end
